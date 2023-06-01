@@ -1,0 +1,158 @@
+.home{
+    margin-top: 100px;
+    .container{
+        .wrapper{
+            padding: 30px 0px;
+            height: 100%;
+            display: flex;
+            width: 100%;
+            border-radius: 20px;
+            .main{
+
+                border: 1px solid #a0a0a0;
+                display: flex;
+                flex-wrap: wrap;
+                width: 45%;
+                padding: 30px 40px;
+                margin-left: 80px;
+                border-radius: 20px 0px 0px 20px;
+                box-shadow: 5px 6px 11px #aeadad;
+             
+
+                .title {
+                    
+                        h4 {
+                            color: #fff;
+                            text-align: center;
+                            margin-bottom: 20px;
+                            text-decoration: underline;
+                        }
+                
+                    }
+                
+                    .form {
+                        gap: 20px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        .form-input{
+                            input{
+                                padding: 10px 10px;
+                                border-radius: 10px;
+                                border: 1px solid #008080;
+                            }
+                            p{
+                                font-size: 10px;
+                                text-align: center;
+                                color: #f9f6f6;
+                                margin-bottom: 0px;
+                            }
+                        }
+                    }
+                    .button {
+                         gap: 20px;
+                    
+                    span {
+                          margin-bottom: 20px;
+                        }
+                     }
+                   
+
+            }
+
+            .right-side{
+                .img{
+                    margin-left: 0px;
+                    width: 100%;
+                   
+                    z-index: -1;
+                    
+                    img{   
+                        border-radius: 0px 20px 20px 0px;
+                       }
+                }
+            }
+                        
+        }
+    }
+}
+
+// ============================================Tables====================================
+
+
+.form-table{
+    .container{
+        .wrapper{
+            width: 100%;
+            .tables{
+                border: 1px solid #ffff;
+                margin-bottom: 30px;
+
+               
+                .heading{
+                  thead{
+                    tr {
+                            border: 1px solid #ffff;
+                            width: 200px;
+                    
+                    
+                            th {
+                                border: 1px solid #ffff;
+                                color: #fff;
+                                padding: 10px 20px;
+                                width: 110px;
+                                text-align: center;
+                            }
+                    
+                        }
+                  }
+                  tbody{
+                    tr {
+                            border: 1px solid #ffff;
+                            width: 300px;
+                    
+                            td {
+                                border: 1px solid #ffff;
+                                color: #fff;
+                                padding: 10px 0px;
+                                text-align: center;
+                    
+                            }
+                    
+                        }
+
+                  }
+                                        
+                    
+                }
+            }
+        }
+    }
+
+
+    
+}
+
+
+// =================================================secreen responsive===========================
+
+@media(max-width:768px){
+    .home{
+        .container{
+            .wrapper{
+                display: block;
+                margin-top: 0px;
+                width: 100%;
+                margin-left: -80px;
+                .main{
+                    width:100%;
+                    border-radius: 20px;
+                    
+                }
+                .right-side{
+                    display: none;
+                    
+                }
+            }
+        }
+    }
+}
